@@ -265,17 +265,29 @@
     <footer class="contact-me" id="contact">
       <div class="contact-me-section">
         <div class="contact-text">
-          <h2>Contact me</h2>
           <p>
             If you have an appication you are interested in developing, a feature that you need
             built or a project that needs coding, i'd love to help with it
           </p>
         </div>
         <form action="https://formspree.io/f/mpzbayyq" method="POST" id="form">
-          <label for="name">Name</label>
-          <input name="name" id="name" class="formElement" type="text" placeholder="Your name" />
+          <div class="name">
+            <input
+              name="first-name"
+              id="first-name"
+              class="formElement"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              name="last-name"
+              id="last-name"
+              class="formElement"
+              type="text"
+              placeholder="last Name"
+            />
+          </div>
 
-          <label for="email">Email</label>
           <input
             name="email"
             id="email"
@@ -285,7 +297,6 @@
             required
           />
 
-          <label for="message">Leave your message here</label>
           <textarea
             id="message"
             class="formElement"
