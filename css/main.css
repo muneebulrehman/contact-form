@@ -395,6 +395,7 @@ textarea {
 
 .submit-btn:active {
   border: 1px solid orangered;
+  background: white;
 }
 
 label {
