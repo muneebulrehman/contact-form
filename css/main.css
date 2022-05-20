@@ -393,6 +393,10 @@ textarea {
   background-color: #ff9a5f;
 }
 
+submit-btn:active {
+  border: 1px solid orangered;
+}
+
 label {
   font-size: 1rem;
   margin-bottom: 0.3rem;
