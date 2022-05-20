@@ -384,6 +384,13 @@ textarea {
   border: none;
   font-size: 17px;
   line-height: 24px;
+  color: #fff;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #ff9a5f;
 }
 
 label {
@@ -430,6 +437,11 @@ label::after {
 
   textarea {
     height: 5rem;
+  }
+  .validation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .submit-btn {
