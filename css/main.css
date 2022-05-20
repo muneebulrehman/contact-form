@@ -393,7 +393,7 @@ textarea {
   background-color: #ff9a5f;
 }
 
-submit-btn:active {
+.submit-btn:active {
   border: 1px solid orangered;
 }
 
